@@ -6,17 +6,17 @@ public class okMonotremes extends okMammals implements IokTanqueMutacion{
 
     private String okNombre;
 
-    public okMonotremes(String okNombre) {
+    public okMonotremes(String okNombre) { //REFACTORIZACIÓN (FALTÓ DEFINIR NOMBRE)
         this.okNombre = okNombre;
     }
     
    @Override
-    public String okSaludar() {
+    public String okSaludar() {     
         return okNombre + " saludando a todos";
     }
 
     @Override
-    public String okMutar() {
+    public String okMutar() {       
 
         Random okrand = new Random();
 

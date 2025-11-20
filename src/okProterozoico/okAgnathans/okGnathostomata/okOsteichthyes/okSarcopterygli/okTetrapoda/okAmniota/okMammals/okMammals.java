@@ -3,7 +3,7 @@ package okProterozoico.okAgnathans.okGnathostomata.okOsteichthyes.okSarcopterygl
 public class okMammals implements IokSaludar {
  
      @Override
-    public String okSaludar() {
+    public String okSaludar() {            //REFACTORIZACIÓN (FALTO EL "ok")
         return "Mamífero saludando";
     }
 }
